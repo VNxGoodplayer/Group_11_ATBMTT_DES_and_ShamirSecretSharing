@@ -1,0 +1,72 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\3_Mon_hoc_tren_Truong\\21_An_toan_va_Bao_mat_thong_tin\\BTL\\Code\\finish_v2\\BTL_ATBMTT_interface1\\BTL_ATBMTT_interface1.csproj": {}
+  },
+  "projects": {
+    "D:\\3_Mon_hoc_tren_Truong\\21_An_toan_va_Bao_mat_thong_tin\\BTL\\Code\\finish_v2\\BTL_ATBMTT_interface1\\BTL_ATBMTT_interface1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\3_Mon_hoc_tren_Truong\\21_An_toan_va_Bao_mat_thong_tin\\BTL\\Code\\finish_v2\\BTL_ATBMTT_interface1\\BTL_ATBMTT_interface1.csproj",
+        "projectName": "BTL_ATBMTT_interface1",
+        "projectPath": "D:\\3_Mon_hoc_tren_Truong\\21_An_toan_va_Bao_mat_thong_tin\\BTL\\Code\\finish_v2\\BTL_ATBMTT_interface1\\BTL_ATBMTT_interface1.csproj",
+        "packagesPath": "C:\\Users\\Thong\\.nuget\\packages\\",
+        "outputPath": "D:\\3_Mon_hoc_tren_Truong\\21_An_toan_va_Bao_mat_thong_tin\\BTL\\Code\\finish_v2\\BTL_ATBMTT_interface1\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Thong\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "DocumentFormat.OpenXml": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

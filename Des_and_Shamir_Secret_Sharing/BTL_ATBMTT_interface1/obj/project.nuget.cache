@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "uGh5Yf3FhmeM4aA4uVW/xjQxVBnCIoNMlyI2MVmIhhgkAHCsX/kyVAQh0PiZSm28gVahPHG46XCMYz1cvWqpOA==",
+  "success": true,
+  "projectFilePath": "D:\\3_Mon_hoc_tren_Truong\\21_An_toan_va_Bao_mat_thong_tin\\BTL\\Final\\Des_and_Shamir_Secret_Sharing\\BTL_ATBMTT_interface1\\BTL_ATBMTT_interface1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Thong\\.nuget\\packages\\documentformat.openxml\\3.0.0\\documentformat.openxml.3.0.0.nupkg.sha512",
+    "C:\\Users\\Thong\\.nuget\\packages\\documentformat.openxml.framework\\3.0.0\\documentformat.openxml.framework.3.0.0.nupkg.sha512",
+    "C:\\Users\\Thong\\.nuget\\packages\\system.io.packaging\\8.0.0\\system.io.packaging.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

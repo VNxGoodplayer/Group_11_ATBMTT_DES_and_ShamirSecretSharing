@@ -1,0 +1,36 @@
+﻿<Window x:Class="BTL_ATBMTT_interface1.Window_Nhap_Khoa"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BTL_ATBMTT_interface1"
+        mc:Ignorable="d" FontSize="20px"
+        Title="Window_Nhap_Khoa" Height="300" Width="600">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="47*"/>
+            <RowDefinition Height="192*"/>
+            <RowDefinition Height="45*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="5*"/>
+            <ColumnDefinition Width="7*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox Name="tb_tieude" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" FontWeight="Bold"
+                 FontSize="25px" Margin="0,10,0,0"
+                 Text="Nhập vào khoá con"
+                 HorizontalAlignment="Center"/>
+        <Label Grid.Column="0" Content="Khoá X" HorizontalContentAlignment="Center"
+               FontSize="20" FontWeight="Bold" VerticalAlignment="Top" Height="43" Margin="0,47,0,0" Grid.RowSpan="2"/>
+        <TextBox Name="tb_KhoaX" Grid.Row="1" Grid.Column="0" Margin="10,40,10,10"/>
+        <Label Grid.Column="1" Content="Khoá Y" HorizontalContentAlignment="Center"
+       FontSize="20" FontWeight="Bold" VerticalAlignment="Top" Height="43" Margin="0,47,0,0" Grid.RowSpan="2"/>
+        <TextBox Name="tb_KhoaY" Grid.Row="1" Grid.Column="1" Margin="10,40,10,10"/>
+        <StackPanel Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" Orientation="Horizontal"
+                    HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Button Name="butok" Width="100" Height="35" Margin="0,0,50,0"
+                    Click="clk_ok" Content="OK" FontWeight="Bold"/>
+            <Button Name="buthuy" Width="100" Height="35" Content="Huỷ" FontWeight="Bold"/>
+        </StackPanel>
+    </Grid>
+</Window>
